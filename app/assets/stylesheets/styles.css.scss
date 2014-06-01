@@ -1,0 +1,24 @@
+$font-family-sans-serif: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+$btn-primary-background: green;
+.navbar-default{
+    background:none !important;
+    border: none !important;
+    box-shadow:none !important;
+    -webkit-box-shadow: none !important;
+}
+
+
+@import 'bootstrap';
+
+
+body { padding-top: 60px; }
+
+.footer { margin-top: 50px
+         
+         color $gray-light;
+a {
+	color: $gray;
+}
+
+}

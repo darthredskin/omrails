@@ -1,0 +1,17 @@
+<% if user_signed_in? %>
+
+<%else%>
+
+<div class="jumbotron">
+<h1>Welcome to My Project!</h1>
+<p>You found the home page for
+<%= link_to "Jared's Project","Http://adopted-reject.tumblr.com"  %>
+</a>
+</p>
+<p>
+<%= link_to "Sign Up Now", new_user_registration_path, class: "btn btn-success btn-large" %>
+
+
+</p>
+</div>
+<%end%>
