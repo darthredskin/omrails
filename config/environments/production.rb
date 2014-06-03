@@ -79,4 +79,14 @@ Omrails::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   config.action_mailer.default_url_options = { host: 'localhost:3000' }
+
+  # config/environments/production.rb
+YOURAPPLICATION::Application.configure do
+
+   # your config settings
+
+   config.assets.compile = true
+
+   # your other config settings
+end
 end
